@@ -84,7 +84,7 @@ body {
 @media only screen and (max-width: 768px) {
 
     /* For mobile phones: */
-    .container {
+    /* .container {
             grid-template-columns: 1fr;
         }
     
@@ -95,5 +95,12 @@ body {
         .item5 {
             grid-column: 1 / span 1;
              min-height: 50px;
-        }
+        } */
+        @media only screen and (max-width: 620px){
+            .item1 {grid-area: 1 / span 5;}
+            .item2 {grid-area: 2 / span 5;}
+            .item3 {grid-area: 3 / span 5;}
+            .item4 {grid-area: 4 / span 5;}
+            .item5 {grid-area: 5 / span 5;}   
+            }
 }
